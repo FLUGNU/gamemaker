@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2f8e227e-818c-44e3-a8f1-1a0eea3d1205",
+            "Value": {
+                "id": "25807b65-5f70-4578-9769-dc2f0e882574",
+                "resourcePath": "sprites\\o_dalle_sprite\\o_dalle_sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "466b4895-9c94-4b16-afb2-a7d48ceb83ce",
             "Value": {
                 "id": "2583e516-617f-493d-9af0-73a915a6f5da",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "b7661486-1111-4e9d-b0bd-7aa47bb021f0",
+            "Value": {
+                "id": "0b7bbc11-ff44-4744-b372-3776a7eed7bd",
+                "resourcePath": "objects\\o_dalle\\o_dalle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b8a1cb32-4dc4-44b8-8ed6-8e4e44f52e4e",
             "Value": {
                 "id": "02e71d4d-19fc-413e-8c7f-45f928393cd4",
@@ -215,6 +231,14 @@
             }
         },
         {
+            "Key": "e3f5ac7c-a8c1-4776-a3b9-9416b995dd5b",
+            "Value": {
+                "id": "f09bc8a9-9555-4cd4-a85b-9ffcf867f81c",
+                "resourcePath": "scripts\\MapCreati\\MapCreati.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f5439f62-b03e-4596-af49-a32028a6bef2",
             "Value": {
                 "id": "cdd266a9-e184-4c0f-bbe6-0aceaabec300",
@@ -225,6 +249,7 @@
     ],
     "script_order": [
         "21ddf82a-4fa8-45e5-bdcb-90b75089c60f",
+        "e3f5ac7c-a8c1-4776-a3b9-9416b995dd5b",
         "8f31a850-c14d-458f-a51e-731883caf20f"
     ],
     "tutorial": ""
