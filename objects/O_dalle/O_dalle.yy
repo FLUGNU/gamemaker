@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_dalle",
     "eventList": [
-        
+        {
+            "id": "543faff2-4c0d-4d2f-b279-9f77825153c8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "b7661486-1111-4e9d-b0bd-7aa47bb021f0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -34,7 +34,7 @@
             "Key": "21ddf82a-4fa8-45e5-bdcb-90b75089c60f",
             "Value": {
                 "id": "0a16397e-5847-416a-97e1-393ed91803b2",
-                "resourcePath": "scripts\\script_de_pd\\script_de_pd.yy",
+                "resourcePath": "scripts\\dalleIsHere\\dalleIsHere.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "9ea49796-f6e9-4713-90df-3a3d5164b149",
+            "Value": {
+                "id": "03c647b3-1d72-401b-a24b-4e9f4b69e47a",
+                "resourcePath": "scripts\\coordToPos\\coordToPos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a52f9a19-8411-45e3-bdc9-7c09badb6b2a",
             "Value": {
                 "id": "8d8e5a20-788e-4f03-912d-174ef659e9f3",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "d31c91ac-c49c-4b8c-ac40-f6a592ee3ef1",
+            "Value": {
+                "id": "a379f531-eeb2-4b9e-b6a6-c4d2386db0d9",
+                "resourcePath": "objects\\o_cursor\\o_cursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d47223a5-e300-4449-a4c1-b16bdb1957e8",
             "Value": {
                 "id": "33933c4e-8dfe-44c8-bfe8-e239293baf07",
@@ -265,6 +281,7 @@
     ],
     "script_order": [
         "21ddf82a-4fa8-45e5-bdcb-90b75089c60f",
+        "9ea49796-f6e9-4713-90df-3a3d5164b149",
         "e3f5ac7c-a8c1-4776-a3b9-9416b995dd5b",
         "8f31a850-c14d-458f-a51e-731883caf20f"
     ],
