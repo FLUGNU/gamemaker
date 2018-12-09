@@ -40,14 +40,3 @@ for (var i = 0; !file_text_eof(file) ; i += 1)
 	}
 }
 file_text_close(file);
-
-
-var i = 0
-var j = 1
-
-var pos = coordToPos(i,j)
-
-var new_perso = instance_create_depth(pos[0],pos[1],-1,o_perso)
-new_perso.ord_i = i
-new_perso.ord_j = j
-

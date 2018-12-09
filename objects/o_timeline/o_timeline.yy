@@ -1,10 +1,19 @@
 {
-    "id": "c3a0166e-113d-48c3-b350-604b56626efa",
+    "id": "2b209d42-5798-4958-9b34-00f272a88db0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_entity",
+    "name": "o_timeline",
     "eventList": [
-        
+        {
+            "id": "aa623218-06ca-40cc-921f-5ef46c468c3f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "2b209d42-5798-4958-9b34-00f272a88db0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,7 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "11499b5e-d901-4904-8178-0f582e3c075e",
+            "id": "96fe50bb-b69c-48e6-b516-d8c52d48199b",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -34,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "ord_j",
-            "varType": 1
+            "varName": "liste_faction_0",
+            "varType": 6
         },
         {
-            "id": "d5434c7e-bfb6-444a-bd5f-16dea52b054d",
+            "id": "7ff9c86e-71fa-4de7-ac94-15189e4422de",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -48,11 +57,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "ord_i",
-            "varType": 1
+            "varName": "liste_faction_1",
+            "varType": 6
         },
         {
-            "id": "13904399-a8d5-4051-8c13-56d594943a39",
+            "id": "7ac919f6-1375-4182-b11f-9da6cb5436d0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -62,11 +71,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "faction",
-            "varType": 1
+            "varName": "liste_faction_2",
+            "varType": 6
         },
         {
-            "id": "f9195286-ee6a-4f15-ae09-51392eefb2f4",
+            "id": "e52ca976-02a9-432a-81ef-c18e01b90caa",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -75,26 +84,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
-            "varName": "PM",
-            "varType": 1
+            "value": "noone",
+            "varName": "current_player",
+            "varType": 5
         },
         {
-            "id": "7b8f1f21-07cd-4323-9fb7-a040bed98e2c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "3",
-            "varName": "MaxPM",
-            "varType": 1
-        },
-        {
-            "id": "95bf784f-0185-424a-9943-43cf766a2a04",
+            "id": "41bdfd11-2ca5-47c9-acc0-1b8db5c7b87a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -104,8 +99,22 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "label",
-            "varType": 2
+            "varName": "player_list",
+            "varType": 6
+        },
+        {
+            "id": "01aeb166-cd94-4180-ae8b-0a95a8476923",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "turn_index",
+            "varType": 1
         }
     ],
     "solid": false,

@@ -1,1 +1,0 @@
-global.dalles[ord_i,ord_j].perso = self

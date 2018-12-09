@@ -1,8 +1,9 @@
 if collision_point(o_cursor.selection.x,o_cursor.selection.y,o_perso,true,true)
 {
-	if image_index == 2
+	var perso = o_cursor.selection.perso
+	
+	if image_index == 2 and perso.PM>0 and o_timeline.current_player == perso and self.perso == noone
 	{
-		var perso = o_cursor.selection.perso
 		
 		var coord = posToCoord(x,y)
 		
@@ -12,7 +13,13 @@ if collision_point(o_cursor.selection.x,o_cursor.selection.y,o_perso,true,true)
 		perso.x = x
 		perso.y = y
 		
+		o_cursor.selection.perso = noone
+		
 		updateSelection()
+		
 		o_cursor.selection.perso = perso
+		
+		perso.PM-=1
 	}
+	else if (perso.PM == 0 and o_timeline.current_player == perso) endTurn()
 }
