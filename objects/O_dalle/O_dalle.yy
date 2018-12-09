@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "o_dalle",
     "eventList": [
-        {
-            "id": "613d84a7-594f-4c4f-aa8c-d036b25d64a1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b7661486-1111-4e9d-b0bd-7aa47bb021f0"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -31,7 +22,92 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "99376d0f-d159-4136-b380-44604b2eb7dd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_0",
+            "varType": 5
+        },
+        {
+            "id": "c1ab9123-711f-4aba-8f94-54f293a01499",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_1",
+            "varType": 5
+        },
+        {
+            "id": "036945b6-9b0e-445e-9040-5a9dcb6eac56",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_2",
+            "varType": 5
+        },
+        {
+            "id": "407df72c-1f5a-4f80-9e26-ce2c7b615a84",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_3",
+            "varType": 5
+        },
+        {
+            "id": "85dd7619-ec88-46bd-a0e9-fc66f7c29de6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_4",
+            "varType": 5
+        },
+        {
+            "id": "84e676cb-9094-43f1-8b34-0b59d22dc853",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "neighbro_5",
+            "varType": 5
+        }
+    ],
     "solid": false,
     "spriteId": "2f8e227e-818c-44e3-a8f1-1a0eea3d1205",
     "visible": true

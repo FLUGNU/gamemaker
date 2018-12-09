@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "d47223a5-e300-4449-a4c1-b16bdb1957e8",
+            "Value": {
+                "id": "33933c4e-8dfe-44c8-bfe8-e239293baf07",
+                "resourcePath": "datafiles_yy\\DATA_DE_MERDE.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "d8f6dbab-6e30-460a-b915-612a8b2d2260",
             "Value": {
                 "id": "5a1d9f28-a9d8-4286-8975-d8ef026fad16",
@@ -244,6 +252,14 @@
                 "id": "cdd266a9-e184-4c0f-bbe6-0aceaabec300",
                 "resourcePath": "views\\f5439f62-b03e-4596-af49-a32028a6bef2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fbbfde1d-bed2-4bd0-93ff-0a4f92730025",
+            "Value": {
+                "id": "da23c923-7721-4767-8865-6a8f2c90de09",
+                "resourcePath": "objects\\o_initiateur\\o_initiateur.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
