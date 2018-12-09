@@ -66,7 +66,7 @@
             "Key": "2f8e227e-818c-44e3-a8f1-1a0eea3d1205",
             "Value": {
                 "id": "25807b65-5f70-4578-9769-dc2f0e882574",
-                "resourcePath": "sprites\\o_dalle_sprite\\o_dalle_sprite.yy",
+                "resourcePath": "sprites\\s_dalle\\s_dalle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -92,6 +92,14 @@
                 "id": "7dcf436b-4bb0-47d0-8d8d-23e16ff236d2",
                 "resourcePath": "views\\5ba35d88-6fd5-4862-ae38-663e5ba73b40.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5be86285-6030-425c-aef3-7ed0c2873f9e",
+            "Value": {
+                "id": "7ad890db-46b6-4645-907d-6effaa1266a9",
+                "resourcePath": "objects\\o_perso\\o_perso.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -220,6 +228,14 @@
                 "id": "3544a7ec-307f-4dfa-9a7a-82b25fdd07f1",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d2c0d8ce-dd44-4294-a571-9e89de08c6e3",
+            "Value": {
+                "id": "497e53a8-c5f4-47b1-a788-33bc93100432",
+                "resourcePath": "sprites\\s_perso\\s_perso.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
