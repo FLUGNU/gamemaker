@@ -41,6 +41,6 @@ for (var i = 0; !file_text_eof(file) ; i += 1)
 			}
 			previous_jmax = jmax
 		}
-	}
+	}//baslek
 }
 file_text_close(file);
